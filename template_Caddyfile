@@ -1,0 +1,10 @@
+# Overwrited by script
+# Do not edit
+#
+# This Caddyfile is used by the Caddy server container
+
+<%serverName%> {
+    proxy / matrix-server:<%internalPort%>
+    tls <%tlsMail%>
+}
+
